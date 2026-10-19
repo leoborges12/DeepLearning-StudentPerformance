@@ -1,0 +1,38 @@
+
+# Ambiente virtual do Python
+.venv/
+venv/
+
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configurações locais do editor
+.vscode/
+.idea/
+
+# Arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Cache de ferramentas de teste
+.pytest_cache/
+.mypy_cache/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Arquivos locais de configuração e segredos
+.env
+.env.*
+!.env.example
+
+# Modelos treinados e artefatos serializados
+modelos/*.keras
+modelos/*.joblib
+
+# Preserva a pasta dos modelos no Git
+!modelos/.gitkeep
